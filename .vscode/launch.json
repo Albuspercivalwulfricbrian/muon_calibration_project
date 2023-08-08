@@ -1,0 +1,44 @@
+// {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+
+
+//     ]
+// }
+
+{
+    // Use IntelliSense to learn 
+    // about possible attributes.
+    // Hover to view descriptions 
+    // of existing attributes.
+    // For more information, visit: 
+    // https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "g++.exe - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/media/doc/DATA/muon_calibration/muon_calibration_project/build/WaveformAnalysis",
+              // There I have got error Property keys must be doublequotedjsonc
+            "args": ["/media/doc/DATA/muon_calibration/new_data/", "2023_5_4_11_8_48_V1test_1DENnabora"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            // "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+}

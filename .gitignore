@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# ROOT
+
+*.root
+*.pcm
+*.so
+build/*
+!/build/build.xml
