@@ -36,5 +36,4 @@
 *.root
 *.pcm
 *.so
-build/*
-!/build/build.xml
+build
